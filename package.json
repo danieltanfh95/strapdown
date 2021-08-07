@@ -3,10 +3,12 @@
   "name": "strapdown",
   "version": "0.0.0",
   "dependencies": {
+    "coffeescript": "^2.5.1",
     "shelljs": "0.0.6"
   },
-  "devDependencies": {},
-  "optionalDependencies": {},
+  "scripts": {
+    "build": "coffee bundle"
+  },
   "engines": {
     "node": "*"
   }
